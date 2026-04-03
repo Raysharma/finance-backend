@@ -1,0 +1,9 @@
+# Environments
+venv/
+
+# Databases
+finance.db
+
+# Cache
+__pycache__/
+.pytest_cache/
