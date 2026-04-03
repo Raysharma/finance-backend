@@ -216,6 +216,9 @@ Tokens expire after 24 hours by default. This is configurable via `ACCESS_TOKEN_
 **Viewer gets `GET /dashboard/balance`**
 The Viewer role was given access to the lightweight balance endpoint so they have something meaningful to see. The full summary (which exposes raw category data and trends) is restricted to Analyst and above.
 
+**Router-Level Logic**
+For simplicity and to keep the codebase compact for this assessment, the database queries are handled directly within the router files. For a larger-scale production application, I would abstract this database logic out into a dedicated `services/` layer to improve testability and separation of concerns.
+
 ---
 
 ## Running Tests
