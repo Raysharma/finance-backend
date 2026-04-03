@@ -237,3 +237,5 @@ Tests use an in-memory SQLite database — no setup required. The suite covers:
 - Input validation (negative amounts, missing fields)
 - Dashboard summary correctness (totals, net balance)
 - Viewer access to balance endpoint
+
+![finance-backend testcase](https://github.com/user-attachments/assets/5976e222-6871-4021-a443-75c5b757fbc0)
